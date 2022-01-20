@@ -1546,7 +1546,14 @@ var en = {
 	"g2s.boardState.disconnected": "disconnected",
 	"g2s.boardStateChanged": "When board is [STATE]",
 	"g2s.analogConnector.prefix": "Analog",
-	"g2s.analogLevelGet": "level of [CONNECTOR]",
+	"g2s.analogLevelA1": "level of analog A1",
+	"g2s.analogLevelA2": "level of analog A2",
+	"g2s.analogLevelB1": "level of analog B1",
+	"g2s.analogLevelB2": "level of analog B2",
+	"g2s.digitalLevelA1": "level of digital A1",
+	"g2s.digitalLevelA2": "level of digital A2",
+	"g2s.digitalLevelB1": "level of digital B1",
+	"g2s.digitalLevelB2": "level of digital B2",
 	"g2s.digitalConnector.prefix": "Digital",
 	"g2s.digitalLevelMenu.low": "Low",
 	"g2s.digitalLevelMenu.high": "High",
@@ -1564,10 +1571,10 @@ var en = {
 	"g2s.oneWireWrite": "OneWire [CONNECTOR] write [DATA]",
 	"g2s.oneWireRead": "OneWire [CONNECTOR] read [LENGTH] bytes",
 	"g2s.oneWireWriteAndRead": "OneWire [CONNECTOR] write [DATA] then read [LENGTH] bytes",
-	"g2s.neoPixelConfigStrip": "Set NeoPixel length [LENGTH] on [CONNECTOR]",
-	"g2s.neoPixelSetColor": "NeoPixel color [POSITION] R [RED] G [GREEN] B [BLUE]",
-	"g2s.neoPixelShow": "NeoPixel show",
-	"g2s.neoPixelClear": "NeoPixel clear",
+	"g2s.neoPixelConfigStrip": "Set full color LED length [LENGTH] on [CONNECTOR]",
+	"g2s.neoPixelSetColor": "full color LED color [POSITION] R [RED] G [GREEN] B [BLUE]",
+	"g2s.neoPixelShow": "full color LED show",
+	"g2s.neoPixelClear": "full color LED clear",
 	"g2s.measureDistance": "distance (mm)",
 	"g2s.getAcceleration": "acceleration [AXIS] (m/s^2)",
 	"g2s.accelerationAxisMenu.x": "x",
@@ -1591,7 +1598,14 @@ var ja = {
 	"g2s.boardState.disconnected": "切れた",
 	"g2s.boardStateChanged": "ボードが[STATE]とき",
 	"g2s.analogConnector.prefix": "アナログ",
-	"g2s.analogLevelGet": "[CONNECTOR]のレベル",
+	"g2s.analogLevelA1": "アナログA1のレベル",
+	"g2s.analogLevelA2": "アナログA2のレベル",
+	"g2s.analogLevelB1": "アナログB1のレベル",
+	"g2s.analogLevelB2": "アナログB2のレベル",
+	"g2s.digitalLevelA1": "デジタルA1のレベル",
+	"g2s.digitalLevelA2": "デジタルA2のレベル",
+	"g2s.digitalLevelB1": "デジタルB1のレベル",
+	"g2s.digitalLevelB2": "デジタルB2のレベル",
 	"g2s.digitalConnector.prefix": "デジタル",
 	"g2s.digitalLevelMenu.low": "ロー",
 	"g2s.digitalLevelMenu.high": "ハイ",
@@ -1609,10 +1623,10 @@ var ja = {
 	"g2s.oneWireWrite": "[CONNECTOR]のOneWireに[DATA]を書き込む",
 	"g2s.oneWireRead": "[CONNECTOR]のOneWireから[LENGTH]バイト読み出す",
 	"g2s.oneWireWriteAndRead": "[CONNECTOR]のOneWireに[DATA]を書き込んでから[LENGTH]バイト読み出す",
-	"g2s.neoPixelConfigStrip": "[CONNECTOR]に長さ[LENGTH]のNeoPixelをつなぐ",
-	"g2s.neoPixelSetColor": "NeoPixel[POSITION]の色を赤[RED] 緑[GREEN] 青[BLUE]にする",
-	"g2s.neoPixelShow": "NeoPixelを光らせる",
-	"g2s.neoPixelClear": "NeoPixelを消す",
+	"g2s.neoPixelConfigStrip": "[CONNECTOR]に長さ[LENGTH]のフルカラーLEDをつなぐ",
+	"g2s.neoPixelSetColor": "フルカラーLED[POSITION]の色を赤[RED] 緑[GREEN] 青[BLUE]にする",
+	"g2s.neoPixelShow": "フルカラーLEDを光らせる",
+	"g2s.neoPixelClear": "フルカラーLEDを消す",
 	"g2s.measureDistance": "距離(mm)",
 	"g2s.getAcceleration": "加速度[AXIS](m/s^2)",
 	"g2s.accelerationAxisMenu.x": "x",
@@ -1639,7 +1653,14 @@ var translations = {
 	"g2s.boardState.disconnected": "きれた",
 	"g2s.boardStateChanged": "ボードが[STATE]とき",
 	"g2s.analogConnector.prefix": "アナログ",
-	"g2s.getAnalogLevel": "[CONNECTOR]のレベル",
+	"g2s.analogLevelA1": "アナログA1のレベル",
+	"g2s.analogLevelA2": "アナログA2のレベル",
+	"g2s.analogLevelB1": "アナログB1のレベル",
+	"g2s.analogLevelB2": "アナログB2のレベル",
+	"g2s.digitalLevelA1": "デジタルA1のレベル",
+	"g2s.digitalLevelA2": "デジタルA2のレベル",
+	"g2s.digitalLevelB1": "デジタルB1のレベル",
+	"g2s.digitalLevelB2": "デジタルB2のレベル",
 	"g2s.digitalConnector.prefix": "デジタル",
 	"g2s.digitalLevelMenu.low": "ロー",
 	"g2s.digitalLevelMenu.high": "ハイ",
@@ -1657,10 +1678,10 @@ var translations = {
 	"g2s.oneWireWrite": "[CONNECTOR]のOneWireに[DATA]をかきこむ",
 	"g2s.oneWireRead": "[CONNECTOR]のOneWireから[LENGTH]バイトよみだす",
 	"g2s.oneWireWriteAndRead": "[CONNECTOR]のOneWireに[DATA]をかきこんでから[LENGTH]バイトよみだす",
-	"g2s.neoPixelConfigStrip": "[CONNECTOR]に長さ[LENGTH]のNeoPixelをつなぐ",
-	"g2s.neoPixelSetColor": "NeoPixel[POSITION]のいろを あか[RED] みどり[GREEN] あお[BLUE]にする",
-	"g2s.neoPixelShow": "NeoPixelをひからせる",
-	"g2s.neoPixelClear": "NeoPixelをけす",
+	"g2s.neoPixelConfigStrip": "[CONNECTOR]に長さ[LENGTH]のフルカラーLEDをつなぐ",
+	"g2s.neoPixelSetColor": "フルカラーLED[POSITION]のいろを あか[RED] みどり[GREEN] あお[BLUE]にする",
+	"g2s.neoPixelShow": "フルカラーLEDをひからせる",
+	"g2s.neoPixelClear": "フルカラーLEDをけす",
 	"g2s.measureDistance": "きょり(mm)",
 	"g2s.getAcceleration": "かそくど[AXIS](m/s^2)",
 	"g2s.accelerationAxisMenu.x": "x",
@@ -13896,6 +13917,12 @@ var FirmataBoard = /*#__PURE__*/function (_EventEmitter) {
 
     _this.analogReadInterval = 20;
     /**
+     * shortest interval time between message sending
+     * @type {number}
+     */
+
+    _this.sendingInterval = 10;
+    /**
      * Waiting time for response of digital input reading in milliseconds.
      */
 
@@ -14163,14 +14190,22 @@ var FirmataBoard = /*#__PURE__*/function (_EventEmitter) {
      * Set input bias of the connector.
      * @param {number} pin - number of the pin
      * @param {boolean} pullUp - input bias of the pin [none | pullUp]
-     * @returns {undefined} set send message then return immediately
+     * @returns {Promise} a Promise which resolves when the message was sent
      */
 
   }, {
     key: "setInputBias",
     value: function setInputBias(pin, pullUp) {
+      var _this4 = this;
+
       this.pins[pin].inputBias = pullUp ? this.MODES.PULLUP : this.MODES.INPUT;
-      this.pinMode(pin, this.pins[pin].inputBias);
+      return new Promise(function (resolve) {
+        _this4.pinMode(pin, _this4.pins[pin].inputBias);
+
+        setTimeout(function () {
+          return resolve();
+        }, _this4.sendingInterval);
+      });
     }
     /**
      * Update pin value as a analog input when the last update was too old.
@@ -14181,7 +14216,7 @@ var FirmataBoard = /*#__PURE__*/function (_EventEmitter) {
   }, {
     key: "updateAnalogInput",
     value: function updateAnalogInput(analogPin) {
-      var _this4 = this;
+      var _this5 = this;
 
       var pin = this.firmata.analogPins[analogPin];
 
@@ -14191,19 +14226,19 @@ var FirmataBoard = /*#__PURE__*/function (_EventEmitter) {
 
       this.pins[pin].updating = true;
       var request = new Promise(function (resolve) {
-        _this4.firmata.pinMode(analogPin, _this4.MODES.ANALOG);
+        _this5.firmata.pinMode(analogPin, _this5.MODES.ANALOG);
 
-        _this4.firmata.analogRead(analogPin, function (value) {
-          _this4.pins[pin].value = value;
-          _this4.pins[pin].updateTime = Date.now();
-          resolve(_this4.pins[pin].value);
+        _this5.firmata.analogRead(analogPin, function (value) {
+          _this5.pins[pin].value = value;
+          _this5.pins[pin].updateTime = Date.now();
+          resolve(_this5.pins[pin].value);
         });
       });
       return Promise.race([request, timeoutReject(this.updateAnalogInputWaitingTime)]).catch(function (reason) {
-        _this4.pins[pin].value = 0;
+        _this5.pins[pin].value = 0;
         return Promise.reject(reason);
       }).finally(function () {
-        _this4.pins[pin].updating = false;
+        _this5.pins[pin].updating = false;
       });
     }
   }, {
@@ -14216,22 +14251,72 @@ var FirmataBoard = /*#__PURE__*/function (_EventEmitter) {
     value: function reportDigitalPin(pin, value) {
       return this.firmata.reportDigitalPin(pin, value);
     }
+    /**
+     * Asks the arduino to write a value to a digital pin
+     * @param {number} pin The pin you want to write a value to.
+     * @param {number} value The value you want to write. Must be board.HIGH or board.LOW
+     * @param {boolean} enqueue When true, the local state is updated but the command is not sent to the Arduino
+     * @returns {Promise} a Promise which resolves when the message was sent
+     */
+
   }, {
     key: "digitalWrite",
     value: function digitalWrite(pin, value, enqueue) {
-      return this.firmata.digitalWrite(pin, value, enqueue);
+      var _this6 = this;
+
+      return new Promise(function (resolve) {
+        _this6.firmata.digitalWrite(pin, value, enqueue);
+
+        setTimeout(function () {
+          return resolve();
+        }, _this6.sendingInterval);
+      });
     }
+    /**
+     * Set PWM to the valu on the pin
+     * @param {number} pin pin number to set
+     * @param {number} value PWM level
+     * @returns {Promise} a Promise which resolves when the message was sent
+     */
+
   }, {
     key: "pwmWrite",
     value: function pwmWrite(pin, value) {
-      return this.firmata.pwmWrite(pin, value);
+      var _this7 = this;
+
+      return new Promise(function (resolve) {
+        _this7.firmata.pwmWrite(pin, value);
+
+        setTimeout(function () {
+          return resolve();
+        }, _this7.sendingInterval);
+      });
     }
+    /**
+     * Asks the arduino to move a servo
+     * @param {number} pin The pin the servo is connected to
+     * @param {number} value The degrees to move the servo to.
+     * @returns {Promise} a Promise which resolves when the message was sent
+     */
+
   }, {
     key: "servoWrite",
     value: function servoWrite() {
-      var _this$firmata;
+      var _this8 = this;
 
-      return (_this$firmata = this.firmata).servoWrite.apply(_this$firmata, arguments);
+      for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+        args[_key] = arguments[_key];
+      }
+
+      return new Promise(function (resolve) {
+        var _this8$firmata;
+
+        (_this8$firmata = _this8.firmata).servoWrite.apply(_this8$firmata, args);
+
+        setTimeout(function () {
+          return resolve();
+        }, _this8.sendingInterval);
+      });
     }
   }, {
     key: "analogRead",
@@ -14243,10 +14328,26 @@ var FirmataBoard = /*#__PURE__*/function (_EventEmitter) {
     value: function reportAnalogPin(pin, value) {
       return this.firmata.reportAnalogPin(pin, value);
     }
+    /**
+     * Write data to the register
+     * @param {number} address The address of the I2C device.
+     * @param {number} register The register to write
+     * @param {Array} inBytes An array of bytes
+     * @returns {Promise} a Promise which resolves when the message was sent
+     */
+
   }, {
     key: "i2cWrite",
-    value: function i2cWrite(address, registerOrData, inBytes) {
-      return this.firmata.i2cWrite(address, registerOrData, inBytes);
+    value: function i2cWrite(address, register, inBytes) {
+      var _this9 = this;
+
+      return new Promise(function (resolve) {
+        _this9.firmata.i2cWrite(address, register, inBytes);
+
+        setTimeout(function () {
+          return resolve();
+        }, _this9.sendingInterval);
+      });
     }
   }, {
     key: "i2cStop",
@@ -14256,65 +14357,79 @@ var FirmataBoard = /*#__PURE__*/function (_EventEmitter) {
   }, {
     key: "i2cReadOnce",
     value: function i2cReadOnce(address, register, readLength, timeout) {
-      var _this5 = this;
+      var _this10 = this;
 
       timeout = timeout ? timeout : this.i2cReadWaitingTime;
       var request = new Promise(function (resolve) {
-        _this5.firmata.i2cReadOnce(address, register, readLength, function (data) {
+        _this10.firmata.i2cReadOnce(address, register, readLength, function (data) {
           resolve(data);
         });
       });
       return Promise.race([request, timeoutReject(timeout)]);
     }
+    /**
+     * Resets all devices on the bus.
+     * @param {number} pin pin number to reset
+     * @returns {Promise} a Promise which resolves when the message was sent
+     */
+
   }, {
     key: "sendOneWireReset",
     value: function sendOneWireReset(pin) {
-      return this.firmata.sendOneWireReset(pin);
+      var _this11 = this;
+
+      return new Promise(function (resolve) {
+        _this11.firmata.sendOneWireReset(pin);
+
+        setTimeout(function () {
+          return resolve();
+        }, _this11.sendingInterval);
+      });
     }
   }, {
     key: "searchOneWireDevices",
     value: function searchOneWireDevices(pin) {
-      var _this6 = this;
+      var _this12 = this;
 
       return new Promise(function (resolve, reject) {
-        if (_this6.firmata.pins[pin].mode !== _this6.firmata.MODES.ONEWIRE) {
-          _this6.firmata.sendOneWireConfig(pin, true);
+        if (_this12.firmata.pins[pin].mode !== _this12.firmata.MODES.ONEWIRE) {
+          _this12.firmata.sendOneWireConfig(pin, true);
 
-          return _this6.firmata.sendOneWireSearch(pin, function (error, founds) {
+          return _this12.firmata.sendOneWireSearch(pin, function (error, founds) {
             if (error) return reject(error);
             if (founds.length < 1) return reject(new Error('no device'));
 
-            _this6.firmata.pinMode(pin, _this6.firmata.MODES.ONEWIRE);
+            _this12.firmata.pinMode(pin, _this12.firmata.MODES.ONEWIRE);
 
-            _this6.oneWireDevices = founds;
+            _this12.oneWireDevices = founds;
 
-            _this6.firmata.sendOneWireDelay(pin, 1);
+            _this12.firmata.sendOneWireDelay(pin, 1);
 
-            resolve(_this6.oneWireDevices);
+            resolve(_this12.oneWireDevices);
           });
         }
 
-        resolve(_this6.oneWireDevices);
+        resolve(_this12.oneWireDevices);
       });
     }
   }, {
     key: "oneWireWrite",
     value: function oneWireWrite(pin, data) {
-      var _this7 = this;
+      var _this13 = this;
 
       return this.searchOneWireDevices(pin).then(function (devices) {
-        _this7.firmata.sendOneWireWrite(pin, devices[0], data);
+        _this13.firmata.sendOneWireWrite(pin, devices[0], data);
       });
     }
   }, {
     key: "oneWireRead",
     value: function oneWireRead(pin, length, timeout) {
-      var _this8 = this;
+      var _this14 = this;
 
       timeout = timeout ? timeout : this.oneWireReadWaitingTime;
       var request = this.searchOneWireDevices(pin).then(function (devices) {
         return new Promise(function (resolve, reject) {
-          _this8.firmata.sendOneWireRead(pin, devices[0], length, function (readError, data) {
+          _this14.firmata.sendOneWireRead(pin, devices[0], length, function (readError, data) {
             if (readError) return reject(readError);
             resolve(data);
           });
@@ -14325,12 +14440,12 @@ var FirmataBoard = /*#__PURE__*/function (_EventEmitter) {
   }, {
     key: "oneWireWriteAndRead",
     value: function oneWireWriteAndRead(pin, data, readLength, timeout) {
-      var _this9 = this;
+      var _this15 = this;
 
       timeout = timeout ? timeout : this.oneWireReadWaitingTime;
       var request = this.searchOneWireDevices(pin).then(function (devices) {
         return new Promise(function (resolve, reject) {
-          _this9.firmata.sendOneWireWriteAndRead(pin, devices[0], data, readLength, function (readError, readData) {
+          _this15.firmata.sendOneWireWriteAndRead(pin, devices[0], data, readLength, function (readError, readData) {
             if (readError) return reject(readError);
             resolve(readData);
           });
@@ -14341,7 +14456,7 @@ var FirmataBoard = /*#__PURE__*/function (_EventEmitter) {
   }, {
     key: "neoPixelConfigStrip",
     value: function neoPixelConfigStrip(pin, length) {
-      var _this10 = this;
+      var _this16 = this;
 
       // now send the config message with length and data point.
       this.neoPixel = {
@@ -14357,7 +14472,7 @@ var FirmataBoard = /*#__PURE__*/function (_EventEmitter) {
       data[5] = length >> 7 & nodePixelConstants.FIRMATA_7BIT_MASK;
       data[6] = nodePixelConstants.END_SYSEX;
       return new Promise(function (resolve) {
-        _this10.port.write(data, function () {
+        _this16.port.write(data, function () {
           return resolve();
         });
       });
@@ -14365,7 +14480,7 @@ var FirmataBoard = /*#__PURE__*/function (_EventEmitter) {
   }, {
     key: "neoPixelSetColor",
     value: function neoPixelSetColor(index, color) {
-      var _this11 = this;
+      var _this17 = this;
 
       if (!this.neoPixel) return Promise.resolve();
       var address = Math.min(this.neoPixel.length, Math.max(0, index));
@@ -14382,7 +14497,7 @@ var FirmataBoard = /*#__PURE__*/function (_EventEmitter) {
       data[8] = colorValue >> 21 & nodePixelConstants.FIRMATA_7BIT_MASK;
       data[9] = nodePixelConstants.END_SYSEX;
       return new Promise(function (resolve) {
-        _this11.port.write(data, function () {
+        _this17.port.write(data, function () {
           return resolve();
         });
       });
@@ -14440,7 +14555,7 @@ var FirmataBoard = /*#__PURE__*/function (_EventEmitter) {
   }, {
     key: "neoPixelShow",
     value: function neoPixelShow() {
-      var _this12 = this;
+      var _this18 = this;
 
       var data = [];
       data[0] = nodePixelConstants.START_SYSEX;
@@ -14448,7 +14563,7 @@ var FirmataBoard = /*#__PURE__*/function (_EventEmitter) {
       data[2] = nodePixelConstants.PIXEL_SHOW;
       data[3] = nodePixelConstants.END_SYSEX;
       return new Promise(function (resolve) {
-        _this12.port.write(data, function () {
+        _this18.port.write(data, function () {
           return resolve();
         });
       });
@@ -16503,7 +16618,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
      */
 
     this.pins = [];
-    [9, 10, 11, 14, 15, 16].forEach(function (pin) {
+    [6, 9, 10, 11, 14, 15, 16, 17].forEach(function (pin) {
       _this.pins[pin] = {};
     });
     this.serialPortOptions = {
@@ -16602,6 +16717,21 @@ var ExtensionBlocks = /*#__PURE__*/function () {
       return args.STATE === 'connected' === this.isConnected();
     }
     /**
+     * Get the digital level of the pin
+     * @param {number} pin - pin number to get
+     * @returns {Promise<number>} a Promise which resolves digital value [0|1] of the pin
+     */
+
+  }, {
+    key: "getDigitalLevel",
+    value: function getDigitalLevel(pin) {
+      if (!this.isConnected()) return Promise.resolve(0);
+      return this.board.updateDigitalInput(pin).catch(function (reason) {
+        console.log("digitalRead(".concat(pin, ") was rejected by ").concat(reason));
+        return false;
+      });
+    }
+    /**
      * Whether the current level of the connector is HIGHT as digital input.
      * @param {object} args - the block's arguments.
      * @param {number} args.CONNECTOR - pin number of the connector
@@ -16613,12 +16743,49 @@ var ExtensionBlocks = /*#__PURE__*/function () {
     value: function digitalIsHigh(args) {
       if (!this.isConnected()) return Promise.resolve(false);
       var pin = parseInt(args.CONNECTOR, 10);
-      return this.board.updateDigitalInput(pin).then(function (readData) {
+      return this.getDigitalLevel(pin).then(function (readData) {
         return !!readData;
-      }).catch(function (reason) {
-        console.log("digitalRead(".concat(pin, ") was rejected by ").concat(reason));
-        return false;
       });
+    }
+    /**
+     * The level of digital A1 connector
+     * @returns {Promise} - a Promise which resolves digital level of the pin
+     */
+
+  }, {
+    key: "digitalLevelA1",
+    value: function digitalLevelA1() {
+      return this.getDigitalLevel(10);
+    }
+    /**
+     * The level of digital A2 connector
+     * @returns {Promise} - a Promise which resolves digital level of the pin
+     */
+
+  }, {
+    key: "digitalLevelA2",
+    value: function digitalLevelA2() {
+      return this.getDigitalLevel(11);
+    }
+    /**
+     * The level of digital B1 connector
+     * @returns {Promise} - a Promise which resolves digital level of the pin
+     */
+
+  }, {
+    key: "digitalLevelB1",
+    value: function digitalLevelB1() {
+      return this.getDigitalLevel(6);
+    }
+    /**
+     * The level of digital B2 connector
+     * @returns {Promise} - a Promise which resolves digital level of the pin
+     */
+
+  }, {
+    key: "digitalLevelB2",
+    value: function digitalLevelB2() {
+      return this.getDigitalLevel(9);
     }
     /**
      * Detect the edge as digital level of the connector for HAT block.
@@ -16645,7 +16812,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
      * @param {object} args - the block's arguments.
      * @param {string} args.PIN - number of the pin
      * @param {string} args.BIAS - input bias of the pin [none | pullUp]
-     * @returns {undefined} set send message then return immediately
+     * @returns {Promise} a Promise which resolves when the message was sent
      */
 
   }, {
@@ -16654,13 +16821,14 @@ var ExtensionBlocks = /*#__PURE__*/function () {
       if (!this.isConnected()) return;
       var pin = parseInt(args.PIN, 10);
       var pullUp = args.BIAS === 'pullUp';
-      this.board.setInputBias(pin, pullUp);
+      return this.board.setInputBias(pin, pullUp);
     }
     /**
      * Set the connector to the level as digital output.
      * @param {object} args - the block's arguments.
      * @param {number} args.CONNECTOR - pin number of the connector
      * @param {boolean | string | number} args.LEVEL - level to be set
+     * @returns {Promise} a Promise which resolves when the message was sent
      */
 
   }, {
@@ -16670,30 +16838,71 @@ var ExtensionBlocks = /*#__PURE__*/function () {
       var pin = parseInt(args.CONNECTOR, 10);
       var value = cast.toBoolean(args.LEVEL) ? this.board.HIGH : this.board.LOW;
       this.board.pinMode(pin, this.board.MODES.OUTPUT);
-      this.board.digitalWrite(pin, value);
+      return this.board.digitalWrite(pin, value);
     }
     /**
-     * The level of the connector as analog input.
-     * @param {object} args - the block's arguments.
-     * @param {number} args.CONNECTOR - pin number of the connector
+     * The level (0...100) of the connector as analog input.
+     * @param {number} analogPin - pin number of the connector
      * @returns {Promise} - a Promise which resolves analog level when the response was returned
      */
 
   }, {
-    key: "analogLevelGet",
-    value: function analogLevelGet(args) {
+    key: "getAnalogLevel",
+    value: function getAnalogLevel(analogPin) {
       if (!this.isConnected()) return Promise.resolve(0);
-      var analogPin = parseInt(args.CONNECTOR, 10);
-      return this.board.updateAnalogInput(analogPin).catch(function (reason) {
+      return this.board.updateAnalogInput(analogPin).then(function (raw) {
+        return Math.round(raw / 1023 * 1000) / 10;
+      }).catch(function (reason) {
         console.log("analogRead(".concat(analogPin, ") was rejected by ").concat(reason));
         return 0;
       });
+    }
+    /**
+     * The level of analog A1 connector
+     * @returns {Promise} - a Promise which resolves analog level when the response was returned
+     */
+
+  }, {
+    key: "analogLevelA1",
+    value: function analogLevelA1() {
+      return this.getAnalogLevel(0);
+    }
+    /**
+     * The level of analog A2 connector
+     * @returns {Promise} - a Promise which resolves analog level when the response was returned
+     */
+
+  }, {
+    key: "analogLevelA2",
+    value: function analogLevelA2() {
+      return this.getAnalogLevel(1);
+    }
+    /**
+     * The level of analog B1 connector
+     * @returns {Promise} - a Promise which resolves analog level when the response was returned
+     */
+
+  }, {
+    key: "analogLevelB1",
+    value: function analogLevelB1() {
+      return this.getAnalogLevel(2);
+    }
+    /**
+     * The level of analog A1 connector
+     * @returns {Promise} - a Promise which resolves analog level when the response was returned
+     */
+
+  }, {
+    key: "analogLevelB2",
+    value: function analogLevelB2() {
+      return this.getAnalogLevel(3);
     }
     /**
      * Set the connector to power (%) as PWM.
      * @param {object} args - the block's arguments.
      * @param {number} args.CONNECTOR - pin number of the connector
      * @param {string | number} args.LEVEL - power (%) of PWM
+     * @returns {Promise} a Promise which resolves when the message was sent
      */
 
   }, {
@@ -16702,18 +16911,35 @@ var ExtensionBlocks = /*#__PURE__*/function () {
       if (!this.isConnected()) return;
       var pin = parseInt(args.CONNECTOR, 10);
       var percent = Math.min(Math.max(cast.toNumber(args.LEVEL), 0), 100);
-      var value = Math.round((this.board.RESOLUTION.PWM - 0) * (percent / 100));
+      var value = Math.round(this.board.RESOLUTION.PWM * (percent / 100));
       this.board.pinMode(pin, this.board.MODES.PWM);
-      this.board.pwmWrite(pin, value);
+      return this.board.pwmWrite(pin, value);
     }
+    /**
+     * Turn the servo motor to the degrees.
+     * @param {object} args - the block's arguments.
+     * @param {number} args.CONNECTOR - pin number of the connector
+     * @param {number} args.DEGREE - degrees to the servo to turn
+     * @returns {Promise} a Promise which resolves when the message was sent
+     */
+
   }, {
     key: "servoTurn",
     value: function servoTurn(args) {
       var pin = parseInt(args.CONNECTOR, 10);
       var value = cast.toNumber(args.DEGREE);
       this.board.pinMode(pin, this.board.MODES.SERVO);
-      this.board.servoWrite(pin, value);
+      return this.board.servoWrite(pin, value);
     }
+    /**
+     * Write data to register
+     * @param {object} args - the block's arguments.
+     * @param {number} args.ADDRESS - I2C address
+     * @param {number} args.REGISTER - register which write to
+     * @param {Array<number>} args.DATA - bytes to be written
+     * @returns {Promise} a Promise which resolves when the message was sent
+     */
+
   }, {
     key: "i2cWrite",
     value: function i2cWrite(args) {
@@ -16721,7 +16947,7 @@ var ExtensionBlocks = /*#__PURE__*/function () {
       var address = Number(args.ADDRESS);
       var register = Number(args.REGISTER);
       var data = readAsNumericArray(args.DATA);
-      this.board.i2cWrite(address, register, data);
+      return this.board.i2cWrite(address, register, data);
     }
   }, {
     key: "i2cReadOnce",
@@ -16737,12 +16963,19 @@ var ExtensionBlocks = /*#__PURE__*/function () {
         return '';
       });
     }
+    /**
+     * Reset OneWire modules on the pin
+     * @param {object} args - the block's arguments.
+     * @param {number} args.CONNECTOR - pin number of the connector
+     * @returns {Promise} a Promise which resolves when the message was sent
+     */
+
   }, {
     key: "oneWireReset",
     value: function oneWireReset(args) {
       if (!this.isConnected()) return;
       var pin = parseInt(args.CONNECTOR, 10);
-      this.board.sendOneWireReset(pin);
+      return this.board.sendOneWireReset(pin);
     }
   }, {
     key: "oneWireWrite",
@@ -17187,21 +17420,86 @@ var ExtensionBlocks = /*#__PURE__*/function () {
             }
           }
         }, '---', {
-          opcode: 'analogLevelGet',
+          opcode: 'analogLevelA1',
           blockType: blockType.REPORTER,
-          disableMonitor: true,
+          disableMonitor: false,
           text: formatMessage({
-            id: 'g2s.analogLevelGet',
-            default: 'level of analog [CONNECTOR]',
+            id: 'g2s.analogLevelA1',
+            default: 'level of analog A1',
             description: 'report analog level of the connector'
           }),
-          arguments: {
-            CONNECTOR: {
-              type: argumentType.STRING,
-              menu: 'analogConnectorMenu'
-            }
-          }
+          arguments: {}
         }, {
+          opcode: 'analogLevelA2',
+          blockType: blockType.REPORTER,
+          disableMonitor: false,
+          text: formatMessage({
+            id: 'g2s.analogLevelA2',
+            default: 'level of analog A2',
+            description: 'report analog level of the connector'
+          }),
+          arguments: {}
+        }, {
+          opcode: 'analogLevelB1',
+          blockType: blockType.REPORTER,
+          disableMonitor: false,
+          text: formatMessage({
+            id: 'g2s.analogLevelB1',
+            default: 'level of analog B1',
+            description: 'report analog level of the connector'
+          }),
+          arguments: {}
+        }, {
+          opcode: 'analogLevelB2',
+          blockType: blockType.REPORTER,
+          disableMonitor: false,
+          text: formatMessage({
+            id: 'g2s.analogLevelB2',
+            default: 'level of analog B2',
+            description: 'report analog level of the connector'
+          }),
+          arguments: {}
+        }, '---', {
+          opcode: 'digitalLevelA1',
+          blockType: blockType.REPORTER,
+          disableMonitor: false,
+          text: formatMessage({
+            id: 'g2s.digitalLevelA1',
+            default: 'level of digital A1',
+            description: 'report digital level of the connector'
+          }),
+          arguments: {}
+        }, {
+          opcode: 'digitalLevelA2',
+          blockType: blockType.REPORTER,
+          disableMonitor: false,
+          text: formatMessage({
+            id: 'g2s.digitalLevelA2',
+            default: 'level of digital A2',
+            description: 'report digital level of the connector'
+          }),
+          arguments: {}
+        }, {
+          opcode: 'digitalLevelB1',
+          blockType: blockType.REPORTER,
+          disableMonitor: false,
+          text: formatMessage({
+            id: 'g2s.digitalLevelB1',
+            default: 'level of digital B1',
+            description: 'report digital level of the connector'
+          }),
+          arguments: {}
+        }, {
+          opcode: 'digitalLevelB2',
+          blockType: blockType.REPORTER,
+          disableMonitor: false,
+          text: formatMessage({
+            id: 'g2s.digitalLevelB2',
+            default: 'level of digital B2',
+            description: 'report digital level of the connector'
+          }),
+          arguments: {}
+        }, '---', {
           opcode: 'digitalIsHigh',
           blockType: blockType.BOOLEAN,
           text: formatMessage({
@@ -17425,8 +17723,8 @@ var ExtensionBlocks = /*#__PURE__*/function () {
           blockType: blockType.COMMAND,
           text: formatMessage({
             id: 'g2s.neoPixelConfigStrip',
-            default: 'NeoPixel [CONNECTOR] length [LENGTH]',
-            description: 'configure NeoPixel on the connector'
+            default: 'full color LED [CONNECTOR] length [LENGTH]',
+            description: 'configure full color LED on the connector'
           }),
           arguments: {
             CONNECTOR: {
@@ -17443,8 +17741,8 @@ var ExtensionBlocks = /*#__PURE__*/function () {
           blockType: blockType.COMMAND,
           text: formatMessage({
             id: 'g2s.neoPixelSetColor',
-            default: 'NeoPixel color [POSITION] R [RED] G [GREEN] B [BLUE]',
-            description: 'set NeoPixel color'
+            default: 'full color LED [POSITION] R [RED] G [GREEN] B [BLUE]',
+            description: 'set full color LED color'
           }),
           arguments: {
             POSITION: {
@@ -17469,8 +17767,8 @@ var ExtensionBlocks = /*#__PURE__*/function () {
           blockType: blockType.COMMAND,
           text: formatMessage({
             id: 'g2s.neoPixelShow',
-            default: 'NeoPixel show',
-            description: 'show NeoPixel'
+            default: 'full color LED show',
+            description: 'show full color LED'
           }),
           arguments: {}
         }, {
@@ -17478,8 +17776,8 @@ var ExtensionBlocks = /*#__PURE__*/function () {
           blockType: blockType.COMMAND,
           text: formatMessage({
             id: 'g2s.neoPixelClear',
-            default: 'NeoPixel clear',
-            description: 'clear NeoPixel'
+            default: 'full color LED clear',
+            description: 'clear full color LED'
           }),
           arguments: {}
         }, '---', {
@@ -17665,10 +17963,6 @@ var ExtensionBlocks = /*#__PURE__*/function () {
             acceptReporters: true,
             items: this.getDigitalLevelMenu()
           },
-          analogConnectorMenu: {
-            acceptReporters: false,
-            items: this.getAnalogConnectorMenu()
-          },
           inputPinsMenu: {
             acceptReporters: true,
             items: this.getInputPinsMenu()
@@ -17676,10 +17970,6 @@ var ExtensionBlocks = /*#__PURE__*/function () {
           pwmConnectorMenu: {
             acceptReporters: false,
             items: this.getDigitalConnectorMenu()
-          },
-          oneWireDeviceMenu: {
-            acceptReporters: false,
-            items: this.getOneWireDeviceMenu()
           },
           accelerationAxisMenu: {
             acceptReporters: false,
@@ -17724,19 +18014,22 @@ var ExtensionBlocks = /*#__PURE__*/function () {
   }, {
     key: "getDigitalConnectorMenu",
     value: function getDigitalConnectorMenu() {
-      var prefix = formatMessage({
+      var digitalPrefix = formatMessage({
         id: 'g2s.digitalConnector.prefix',
         default: 'Digital'
       });
       return [{
-        text: "".concat(prefix, "1"),
-        value: '9'
-      }, {
-        text: "".concat(prefix, "2"),
+        text: "".concat(digitalPrefix, " A1"),
         value: '10'
       }, {
-        text: "".concat(prefix, "3"),
+        text: "".concat(digitalPrefix, " A2"),
         value: '11'
+      }, {
+        text: "".concat(digitalPrefix, " B1"),
+        value: '6'
+      }, {
+        text: "".concat(digitalPrefix, " B2"),
+        value: '9'
       }];
     }
   }, {
@@ -17759,24 +18052,6 @@ var ExtensionBlocks = /*#__PURE__*/function () {
       }];
     }
   }, {
-    key: "getAnalogConnectorMenu",
-    value: function getAnalogConnectorMenu() {
-      var prefix = formatMessage({
-        id: 'g2s.analogConnector.prefix',
-        default: 'Analog'
-      });
-      return [{
-        text: "".concat(prefix, "1"),
-        value: '0'
-      }, {
-        text: "".concat(prefix, "2"),
-        value: '1'
-      }, {
-        text: "".concat(prefix, "3"),
-        value: '2'
-      }];
-    }
-  }, {
     key: "getInputPinsMenu",
     value: function getInputPinsMenu() {
       var digitalPrefix = formatMessage({
@@ -17788,23 +18063,29 @@ var ExtensionBlocks = /*#__PURE__*/function () {
         default: 'Analog'
       });
       return [{
-        text: "".concat(digitalPrefix, "1"),
-        value: '9'
-      }, {
-        text: "".concat(digitalPrefix, "2"),
+        text: "".concat(digitalPrefix, " A1"),
         value: '10'
       }, {
-        text: "".concat(digitalPrefix, "3"),
+        text: "".concat(digitalPrefix, " A2"),
         value: '11'
       }, {
-        text: "".concat(analogPrefix, "1"),
-        value: '14'
+        text: "".concat(digitalPrefix, " B1"),
+        value: '6'
       }, {
-        text: "".concat(analogPrefix, "2"),
-        value: '15'
+        text: "".concat(digitalPrefix, " B2"),
+        value: '9'
       }, {
-        text: "".concat(analogPrefix, "3"),
-        value: '16'
+        text: "".concat(analogPrefix, " A1"),
+        value: '0'
+      }, {
+        text: "".concat(analogPrefix, " A2"),
+        value: '1'
+      }, {
+        text: "".concat(analogPrefix, " B1"),
+        value: '2'
+      }, {
+        text: "".concat(analogPrefix, " B2"),
+        value: '3'
       }];
     }
   }, {
@@ -17824,27 +18105,6 @@ var ExtensionBlocks = /*#__PURE__*/function () {
           description: 'label for pull up in input bias menu for g2s'
         }),
         value: 'pullUp'
-      }];
-    }
-  }, {
-    key: "getOneWireDeviceMenu",
-    value: function getOneWireDeviceMenu() {
-      var prefix = formatMessage({
-        id: 'g2s.oneWireDevice.prefix',
-        default: 'Device'
-      });
-      return [{
-        text: "".concat(prefix, "1"),
-        value: '1'
-      }, {
-        text: "".concat(prefix, "2"),
-        value: '2'
-      }, {
-        text: "".concat(prefix, "3"),
-        value: '3'
-      }, {
-        text: "".concat(prefix, "4"),
-        value: '4'
       }];
     }
   }, {
